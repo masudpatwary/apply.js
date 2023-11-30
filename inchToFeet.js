@@ -15,7 +15,7 @@
 //   return dadasFeet;
 // }
 // const feet = inchToFeet(144);
-// // console.log(feet);
+// console.log(feet);
 
 // munites to hours
 

@@ -54,7 +54,7 @@ function findOddNumber(numbers) {
       oddNumber.push(numbers[i]);
     }
   }
-  const total = oddNumber  .reduce(
+  const total = oddNumber.reduce(
     (value, currentValue) => value + currentValue,
     0
   );

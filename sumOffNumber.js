@@ -1,8 +1,28 @@
+// function sumOffNumber(number) {
+//   let sum = 0;
+//   for (let i = 1; i <= number; i++) {
+//     sum = sum + i;
+//     console.log(i, sum);
+//   }
+//   return sum;
+// }
+// sumOffNumber(10);
+
+// function sumOffNumber(number) {
+//   let sum = 0;
+//   for (let i = 1; i < number; i++) {
+//     sum = sum + i;
+//     console.log(sum);
+//   }
+//   return sum;
+// }
+// sumOffNumber(10);
+
 function sumOffNumber(number) {
   let sum = 0;
-  for (let i = 1; i <= number; i++) {
+  for (let i = 1; i < number; i++) {
     sum = sum + i;
-    console.log(i, sum);
+    console.log(sum);
   }
   return sum;
 }

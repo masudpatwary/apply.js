@@ -5,6 +5,6 @@ function revergeFactorial(number) {
   }
   return factorial;
 }
-const numberOf = 10;
+const numberOf = 4;
 const result = revergeFactorial(numberOf);
 console.log(result);
